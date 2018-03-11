@@ -18,10 +18,20 @@ Just Enter your links in the Script ,Script will do neccessary changes required 
     	addr: 3000
     	proto: http
 	
-### STEP 2 : Now Start ngrok with : \n
+### STEP 2 : Now Start ngrok with : 
 		ngrok start --all
 ### STEP 3 : You will See 2 different links Forwarded to
 	    Localhost:80                  [ Link To be Sent to Victim ]
         Localhost:3000		  [ Your Link will be Connecting to.. ] 	
 						
 ### STEP 4 : Enter these links in Script and Follow The Steps given in Script.
+
+# Requirements
+- Beef-xss
+- Apache
+- NGROK [If you want to do this without Port Forwarding]
+
+## ⭕️ Getting Started
+1. ```git clone https://github.com/stormshadow07/BeeF-Over-Wan.git```
+2. ```cd HackTheWorld```
+3. ```chmod +x BeeFOverWan.py && python BeeFOverWan.py```
