@@ -27,11 +27,11 @@ Just Enter your links in the Script ,Script will do neccessary changes required 
 ### STEP 4 : Enter these links in Script and Follow The Steps given in Script.
 
 # Requirements
-- Beef-xss
+- Beef-xss [Browser Exploitation Framework] 
 - Apache
 - NGROK [If you want to do this without Port Forwarding]
 
 ## ⭕️ Getting Started
 1. ```git clone https://github.com/stormshadow07/BeeF-Over-Wan.git```
-2. ```cd HackTheWorld```
+2. ```cd BeeF-Over-Wan```
 3. ```chmod +x BeeFOverWan.py && python BeeFOverWan.py```
