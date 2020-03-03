@@ -7,8 +7,8 @@
 ## Instructions
 You need two links which are Forwarded To LocalHost:80 and LocalHost:3000 to send to victim.
 * Beef listens on port 3000. So this link should be forwared to LocalHost:3000
-	
-Just Enter your links in the script. The python script will do neccessary changes required to opt for your links.
+* Just do python start in the BOW folder. This script automatically starts with root privledges.	
+* Just Enter your links in the script. The python script will do neccessary changes required to opt for your links.
 
 # NGROK Steps 
 ### STEP 1 - Add these Lines To ngrok.yml W/O TABS! (LOC=(.ngrok2/ngrok.yml))
