@@ -5,9 +5,8 @@
 
 
 ## Instructions
-You need two links which are Forwarded To LocalHost:80 and LocalHost:3000
-1. To send to Victim.
-2. Beef listens on port 3000. So this link should be forwared to LocalHost:3000
+You need two links which are Forwarded To LocalHost:80 and LocalHost:3000 to send to victim.
+* Beef listens on port 3000. So this link should be forwared to LocalHost:3000
 	
 Just Enter your links in the script. The python script will do neccessary changes required to opt for your links.
 
