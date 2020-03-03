@@ -4,7 +4,7 @@
 ![2](https://github.com/Dev913/BeeF-Over-Wan/blob/master/Screenshot%202.png)
 
 
-## Instructions :
+## Instructions:
 You need two links which are Forwarded To LocalHost:80 and LocalHost:3000
 1. To send to Victim.
 2. Beef listens on port 3000. So this link should be forwared to LocalHost:3000
