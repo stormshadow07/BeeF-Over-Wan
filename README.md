@@ -12,14 +12,14 @@ You need two links which are Forwarded To LocalHost:80 and LocalHost:3000 to sen
 
 # NGROK Steps 
 ### STEP 1 - Add these Lines To ngrok.yml W/O TABS! (LOC=(.ngrok2/ngrok.yml))
+	tunnels:
+  	  first-app:
+    	    addr: 80
+    	    proto: http
+  	  second-app:
+    	    addr: 3000
+    	    proto: http
 
-tunnels:
-  first-app:
-    addr: 80
-    proto: http
-  second-app:
-    addr: 3000
-    proto: http
 	
 ### STEP 2 - Now start ngrok with: 
 		ngrok start --all
