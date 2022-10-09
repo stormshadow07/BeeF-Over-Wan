@@ -26,12 +26,12 @@ NGROK Steps :-
 STEP 1 : Add these Lines To ngrok.yml [Location .ngrok2/ngrok.yml ]
 	
 	tunnels:
-  	first-app:
-    	addr: 80
-    	proto: http
-  	second-app:
-    	addr: 3000
-    	proto: http
+  	 first-app:
+    	  addr: 80
+    	  proto: http
+  	 second-app:
+    	  addr: 3000
+    	  proto: http
 	
 STEP 2 : Now Start ngrok with : \n
 		ngrok start --all
