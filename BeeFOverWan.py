@@ -124,11 +124,11 @@ if __name__ == '__main__':
     os.system("clear")
     print(color("All Good So far ... \n Close The Browser If Prompted .. ", "green"))
     print(color(instruction(), "green"))
-    send_to = raw_input(
+    send_to = input(
         color((' [?] Enter Adress of Link [You are Sending to Victim]: ')))
     send_to = send_to.rstrip()
     print(color((" [+] Send_To Link  : " + send_to)))
-    connect_to = raw_input(
+    connect_to = input(
         color((' [?] Enter Adress of Link [Your Link will be Connecting to..]: ')))
     connect_to = connect_to.rstrip()
     print(color((" [+] Connect_To Link  : " + connect_to)))
