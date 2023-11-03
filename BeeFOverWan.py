@@ -95,7 +95,8 @@ def string_replace(filename, old_string, new_string):
         #print 'Changing "{old_string}" to "{new_string}" in {filename}'.format(**locals())
         s = s.replace(old_string, new_string)
         f.write(s)
-	print color('[✔] File Changed...','green')
+    print(color('[✔] File Changed...','green'))
+
 
 
 
