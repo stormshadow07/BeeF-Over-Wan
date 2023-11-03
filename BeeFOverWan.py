@@ -150,7 +150,7 @@ if __name__ == '__main__':
         print (color("[+] Hooked Link To Send to Victim  : "+send_to_full,"green"))
         print (color ('[?]\n\nNote : I know few of the Exploits does not work\n       due to Updated Browsers and stuff...\n\nTip : Change Payload or Images Address to your Connect_to Address with Port 80 \n\t Example : \n\t\t'))
         print (color("\tFROM Image URL : http://0.0.0.0:3000/adobe/flash_update.png\n","red"))
-        print( color("\tTO Image URL : http://{}:80/adobe/flash_update.png \n".format(connect_to),"green"))
+        print (color("\tTO Image URL : http://{}:80/adobe/flash_update.png \n".format(connect_to),"green"))
         print (color ('\n Happy Hacking !!!\n Have Problem or Tip ? Contact : https://github.com/stormshadow07',"green"))
 
 
